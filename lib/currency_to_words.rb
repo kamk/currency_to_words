@@ -1,8 +1,10 @@
+require 'currency_to_words/version'
+
 # encoding: utf-8
 module CurrencyToWords
 
-  require 'cs_currency'
-  require 'pl_currency'
+  require 'currency_to_words/cs_currency'
+  require 'currency_to_words/pl_currency'
 
   ActionView::Helpers::NumberHelper.class_eval do
 
